@@ -1,5 +1,6 @@
-import './src/basics/sets.js';
+import './src/snippets/sets.js';
+import './src/snippets/queuesDeques.js'
 
 
 
-window.addEventListener('DOMContentLoaded',init);
+// window.addEventListener('DOMContentLoaded',init); 
