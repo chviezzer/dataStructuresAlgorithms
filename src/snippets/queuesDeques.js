@@ -1,6 +1,6 @@
 //to create the class to represent a queue    
 
-class Queue {
+export class Queue {
     constructor() {
       this.count = 0; 
       this.lowestCount = 0;  // variable to track the first element
@@ -55,7 +55,7 @@ class Queue {
 
 // creating the Deque class
 
-class Deque {
+export class Deque {
     constructor() {
         this.count = 0;
         this.lowestCount = 0;
@@ -80,7 +80,7 @@ class Deque {
     // adds a new element at the back of the deque
     addBack(element) {
         this.items[this.count] = element;
-        history.count++;
+        this.count++;
     };
     // removes the first element from the deque
     removeFront(){
@@ -144,4 +144,3 @@ class Deque {
 };
 
 
-export default class {Queue; Deque}
