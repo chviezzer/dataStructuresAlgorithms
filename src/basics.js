@@ -1,4 +1,6 @@
 import { Deque, Queue} from './snippets/queuesDeques.js';
+import { Dictionary } from './snippets/dictionary.js';
+
 
 
 // Just started a idea about .....'s energy levels :P
@@ -54,8 +56,6 @@ function palindromeChecker(aString) {
     for (let i = 0; i < lowerString.length; i++) {
         deque.addBack(lowerString.charAt(i));
     }
-    
-    
     
     while (deque.size() > 1 && stillEqual) {   
         firstChar = deque.removeFront();    // remove one element from the front(if palindrome)
