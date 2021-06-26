@@ -1,5 +1,6 @@
 import { Deque, Queue} from './snippets/queuesDeques.js';
 import { Dictionary } from './snippets/dictionary.js';
+import { HashTable } from './snippets/hashTable.js';
 
 
 
@@ -68,11 +69,4 @@ function palindromeChecker(aString) {
     return stillEqual;
 };
 
-
-// let s = 'madam';
-// if (palindromeChecker(s)) {
-//     document.write('Yep');
-// } else {
-//     document.write('Nope');
-// }
 
